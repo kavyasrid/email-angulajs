@@ -1,0 +1,26 @@
+{
+  "name": "send_email",
+  "version": "1.0.0",
+  "description": "send email using angularjs and nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "NA"
+  },
+  "keywords": [
+    "nodejs",
+    "angularjs",
+    "mailing"
+  ],
+  "author": "Suraj Roy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "nodemailer": "^4.6.4"
+  }
+}
